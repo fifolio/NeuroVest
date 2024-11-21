@@ -1,12 +1,16 @@
-import { Button } from "../ui/button";
+import Navbar from "../common/Navbar";
 
 export default function Auth() {
   return (
     <>
-      <h1 className="text-3xl font-bold text-red-500 underline">
-        Hello world!
-      </h1>
-      <Button>Click me</Button>
+    {/* NAVBAR */}
+      <Navbar breadcrumb={false} currentPage="" predictionBtn={false} dropdownMenu={false} />
+
+      {/* AUTH */}
+      <div className="container flex mx-auto">
+        <div className="">1</div>
+        <div className="">2</div>
+      </div>
     </>
   )
 }
