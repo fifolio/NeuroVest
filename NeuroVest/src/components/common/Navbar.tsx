@@ -26,7 +26,7 @@ export default function Navbar({ breadcrumb, currentPage, predictionBtn, dropdow
           <span className="font-medium capitalize ">{breadcrumb ? (
             <NavbarBreadcrumb currentPage={currentPage} />
           ) :
-            <span className="text-sm bg-clip-text text-transparent bg-gradient-to-r from-blue-900 to-purple-900">Synapse-Powered Predictions</span>
+            <span className="text-sm font-semibold bg-clip-text text-transparent bg-gradient-to-r from-blue-900 to-purple-900">Synapse-Powered Predictions</span>
           }
           </span>
         </div>
