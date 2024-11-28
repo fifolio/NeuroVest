@@ -23,7 +23,7 @@ export default function Navbar({ breadcrumb, currentPage, predictionBtn, dropdow
           <a href="#">
             <img src="images/brand/icon.png" alt="logo" className="shadow-md h-[30px]" />
           </a>
-          <span className="font-medium capitalize hidden sm:block">{breadcrumb ? (
+          <span className="font-medium capitalize ">{breadcrumb ? (
             <NavbarBreadcrumb currentPage={currentPage} />
           ) :
             <span className="text-sm bg-clip-text text-transparent bg-gradient-to-r from-blue-900 to-purple-900">Synapse-Powered Predictions</span>
