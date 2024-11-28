@@ -161,7 +161,7 @@ export default function Auth() {
         </div>
 
         {/* FOOTER */}
-        <div className="fixed bottom-5 text-sm font-medium w-full ml-[-20px]">
+        <div className="fixed bottom-5 text-sm font-medium w-full sm:ml-[auto] ml-[-20px]">
           <ul className="flex space-x-4 sm:justify-start justify-center">
             <li className="text-gray-500 hover:text-gray-800">&copy; {new Date().getFullYear()} NeuroVest</li>
             <li><a href="#" className="flex items-center space-x-1 text-gray-500 hover:text-gray-800"><FcAbout /><span>About</span></a></li>
@@ -169,6 +169,6 @@ export default function Auth() {
           </ul>
         </div>
       </div>
-    </>
+    </> 
   )
 }
