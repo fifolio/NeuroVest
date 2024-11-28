@@ -25,7 +25,7 @@ export default function Auth() {
         <div className="mt-[100px] w-full lg:w-3/6 ">
 
           {/* Hero title */}
-          <h1 className="text-7xl pb-5 font-extrabold ml-[-4px] sm:text-left text-center bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-900">NeuroVest</h1>
+          <h1 className="text-7xl pb-5 font-extrabold ml-[-4px] sm:text-left text-center bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-900 drop-shadow-lg">NeuroVest</h1>
 
           {/* Text Animation */}
           <div className="textAnimation font-medium sm:text-md text-xs sm:text-left text-center h-[120px] max-w-[600px] leading-normal">
