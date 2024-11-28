@@ -22,7 +22,7 @@ export default function Auth() {
       <div className="container flex mx-auto px-5 sm:px-0 min-h-[80vh]">
 
         {/* LEFT AREA */}
-        <div className="mt-[15vh] w-full lg:w-3/6 ">
+        <div className="mt-[100px] w-full lg:w-3/6 ">
 
           {/* Hero title */}
           <h1 className="text-7xl pb-5 font-extrabold ml-[-4px] sm:text-left text-center bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-900">NeuroVest</h1>
@@ -148,15 +148,6 @@ export default function Auth() {
               Sign in with Google</button>
           </div>
 
-          {/* FOOTER */}
-          <div className="footer mt-40 mb-5 text-sm font-medium">
-            <ul className="flex space-x-4 sm:justify-normal justify-center">
-              <li className="text-gray-500 hover:text-gray-800">&copy; {new Date().getFullYear()} NeuroVest</li>
-              <li><a href="#" className="flex items-center space-x-1 text-gray-500 hover:text-gray-800"><FcAbout /><span>About</span></a></li>
-              <li><a href="https://github.com/fifolio/NeuroVest" target="_blank" className="flex items-center space-x-1 text-gray-500 hover:text-gray-800"><FaGithub /><span>Github Repo</span></a></li>
-            </ul>
-          </div>
-
         </div>
 
         {/* RIGHT AREA */}
@@ -167,6 +158,15 @@ export default function Auth() {
             </video>
             <div className="mask"></div>
           </div>
+        </div>
+
+        {/* FOOTER */}
+        <div className="w-full fixed bottom-5 text-sm font-medium">
+          <ul className="flex space-x-4 sm:justify-start justify-center">
+            <li className="text-gray-500 hover:text-gray-800">&copy; {new Date().getFullYear()} NeuroVest</li>
+            <li><a href="#" className="flex items-center space-x-1 text-gray-500 hover:text-gray-800"><FcAbout /><span>About</span></a></li>
+            <li><a href="https://github.com/fifolio/NeuroVest" target="_blank" className="flex items-center space-x-1 text-gray-500 hover:text-gray-800"><FaGithub /><span>Github Repo</span></a></li>
+          </ul>
         </div>
       </div>
     </>
