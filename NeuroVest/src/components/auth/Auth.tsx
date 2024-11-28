@@ -141,7 +141,7 @@ export default function Auth() {
 
           {/* Auth button */}
           <div className="authBtn">
-            <button className="bg-primary-blue hover:bg-primary-lightblue font-bold text-white max-w-fit py-2 px-4 rounded-full shadow-md flex items-center sm:mx-0 mx-auto">
+            <button className="bg-clip transparent bg-gradient-to-r from-blue-400 to-blue-600 hover:to-blue-700 font-bold text-white max-w-fit py-2 px-4 rounded-full shadow-md flex items-center sm:mx-0 mx-auto">
               <span className="w-8 mr-4 bg-gray-50 rounded-full">
                 <img src="/images/btns/Auth/google.png" className="w-full" />
               </span>
