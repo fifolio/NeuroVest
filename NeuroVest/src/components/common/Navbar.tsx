@@ -14,7 +14,7 @@ interface Navbar {
 export default function Navbar({ breadcrumb, currentPage, predictionBtn, dropdownMenu}: Navbar) {
 
   return (
-    <div className="bg-white h-[50px] shadow-sm">
+    <div className="bg-white h-[50px] shadow-sm px-5 sm:px-0">
 
       <nav className="container mx-auto flex justify-between items-center bg-while h-[50px]">
 
@@ -26,7 +26,7 @@ export default function Navbar({ breadcrumb, currentPage, predictionBtn, dropdow
           <span className="font-medium capitalize hidden sm:block">{breadcrumb ? (
             <NavbarBreadcrumb currentPage={currentPage} />
           ) :
-            <span className="text-sm">Synapse-Powered Predictions</span>
+            <span className="text-sm bg-clip-text text-transparent bg-gradient-to-r from-blue-900 to-purple-900">Synapse-Powered Predictions</span>
           }
           </span>
         </div>

@@ -27,7 +27,7 @@
     --chart-3: 197 37% 24%;
     --chart-4: 43 74% 66%;
     --chart-5: 27 87% 67%;
-    --radius: 0.5rem
+    --radius: 0.5rem;
   }
   .dark {
     --background: 240 10% 3.9%;
@@ -53,7 +53,7 @@
     --chart-2: 160 60% 45%;
     --chart-3: 30 80% 55%;
     --chart-4: 280 65% 60%;
-    --chart-5: 340 75% 55%
+    --chart-5: 340 75% 55%;
   }
 }
 @layer base {
@@ -122,3 +122,29 @@
   50% { background-position: 400% 0; }
   100% { background-position: 0 0; }
 }
+
+/* AUTH */
+.auth-right-area {
+  position: relative;  
+}
+
+.auth-right-area video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 1.5rem;
+  z-index: 1;
+}
+
+.auth-right-area .mask {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-top: 1.25rem;
+  width: 100%;  
+  height: 500px;
+  background: rgba(0, 0, 0, 0.3);  
+  border-radius: 1.5rem;  
+  z-index: 2;  
+}
+

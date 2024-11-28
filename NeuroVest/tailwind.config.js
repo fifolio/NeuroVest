@@ -49,7 +49,9 @@ export default {
   				'3': 'hsl(var(--chart-3))',
   				'4': 'hsl(var(--chart-4))',
   				'5': 'hsl(var(--chart-5))'
-  			}
+  			},
+			'primary-blue': '#2d98da',
+			'primary-lightblue': '#45aaf2'
   		}
   	}
   },
