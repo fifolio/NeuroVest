@@ -119,7 +119,7 @@ Choosing the Swiss design methodology is more than a stylistic preference for Ne
 NeuroVest, a revolutionary AI-powered stock market predictor, is more than just a tool; it’s a vision of the future of finance, where data-driven insights and cutting-edge technology converge to unlock unprecedented opportunities.
 
 
-![enter image description here](https://drive.google.com/u/0/drive-viewer/AKGpihYPVcfKN7TsPmAw6PbBm-OS182byIuzkmksdZvx26JpN62BnNNmi_iWysO4Sic-sPwGqUkBjLGmoScmh-kywjGjgHMxCZKtHfw=s1600-rw-v1)
+![enter image description here](https://github.com/fifolio/NeuroVest/blob/main/NeuroVest/public/images/brand/NeuroVest.png)
 
 **The Symbol**
 
