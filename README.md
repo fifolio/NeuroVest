@@ -113,11 +113,14 @@ Choosing the Swiss design methodology is more than a stylistic preference for Ne
 
 ## Logo Showcase of NeuroVest
 
+
 **The Vision**
 
 NeuroVest, a revolutionary AI-powered stock market predictor, is more than just a tool; it’s a vision of the future of finance, where data-driven insights and cutting-edge technology converge to unlock unprecedented opportunities.
 
+<center>
 ![enter image description here](https://raw.githubusercontent.com/fifolio/NeuroVest/refs/heads/main/NeuroVest/public/images/brand/icon.png)
+</center>
 
 **The Symbol**
 
