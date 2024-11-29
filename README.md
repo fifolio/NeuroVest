@@ -123,7 +123,7 @@ NeuroVest, a revolutionary AI-powered stock market predictor, is more than just 
 
 **The Symbol**
 
-At the heart of NeuroVest lies a captivating symbol: the Grant’s Gazelle. 💨 This elegant creature, renowned for its speed, agility, and keen senses, embodies the core values and aspirations of our company.
+At the heart of NeuroVest lies a captivating symbol: the Grant’s Gazelle. 💨 This elegant creature, renowned for its speed, agility, and keen senses, embodies the core values and aspirations of our project.
 
 -   **Speed and Agility:** Just as the gazelle effortlessly navigates the African savannah, NeuroVest swiftly processes vast amounts of data to identify emerging trends and patterns. ⚡️
 -   **Keen Senses:** The gazelle’s acute vision and hearing allow it to anticipate threats and opportunities. Similarly, NeuroVest’s advanced algorithms are always alert, scanning the market for potential gains and risks. 👀
