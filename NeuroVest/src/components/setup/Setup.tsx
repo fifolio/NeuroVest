@@ -6,8 +6,8 @@ import Stage from "./Stage";
 export default function Setup() {
 
     return (
-        <div className="flex items-center justify-center min-h-screen bg-[#2c2c2c]">
-            <div className="rounded-lg shadow-lg bg-[white] sm:w-[550px] w-full mx-5">
+        <div className="flex sm:items-center items-start justify-center min-h-screen bg-[#2c2c2c]">
+            <div className="rounded-lg shadow-lg bg-[white] sm:w-[550px] w-full mx-5 sm:mt-0 mt-10">
                 <div>
                     <SetupNavbar />
                     <Stage />
