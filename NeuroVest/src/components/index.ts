@@ -1,6 +1,8 @@
 export { default as Error } from './error/Error'
+export { default as Loading } from './common/Loading'
 export { default as Navbar } from './common/Navbar'
 export { default as NavbarBreadcrumb } from './common/NavbarBreadcrumb'
 export { default as NavbarDropdownMenu } from './common/NavbarDropdownMenu'
 export { default as Auth } from './auth/Auth'
 export { default as Home } from './home/Home'
+export { default as Setup } from './setup/Setup'
