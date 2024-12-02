@@ -6,7 +6,7 @@ export default function Stage_1() {
   return (
     <ScrollArea className="h-[100%] w-[100%] px-4 py-4">
       <main className="flex flex-col items-start justify-start">
-        <h1 className="text-3xl sm:text-center w-full font-bold sm:mt-5 mb-2 capitalize">Welcome to {import.meta.env.VITE_APP_NAME}</h1>
+        <h1 className="text-3xl sm:text-center w-full font-extrabold sm:mt-5 mb-2 capitalize">Welcome to {import.meta.env.VITE_APP_NAME}</h1>
         <p className="font-semibold text-gray-500 mb-4 sm:text-center w-full">Your AI-powered stock market predictor</p>
 
         <div className="grid gap-4 py-4">
