@@ -15,6 +15,7 @@ import { stage_10_title } from "./stages/Stage_10";
 
 // STORES
 import { useStageProgress } from "@/stores";
+import useTermsCheckbox from "@/stores/useTermsCheckbox";
 
 export default function SetupNavbar() {
 
@@ -24,16 +25,22 @@ export default function SetupNavbar() {
   const [currentStage, setCurrentStage] = useState<string>('');
   const [nextStage, setNextStage] = useState<number>(10);
 
+  // Check on 'Terms of Use' Checkbox 
+  const { setIsAccepted } = useTermsCheckbox();
+
+
   // Sorting the stages:
   useEffect(() => {
 
     switch (true) {
       case stage == 10:
         setCurrentStage(stage_1_title)
+        setIsAccepted(false)
         setNextStage(20)
         break;
       case stage == 20:
         setCurrentStage(stage_2_title)
+        setIsAccepted(true)
         setNextStage(30)
         break;
       case stage == 30:
@@ -72,7 +79,9 @@ export default function SetupNavbar() {
         break;
     }
 
+
   }, [stage]);
+
 
   return (
     <div className="flex justify-between py-2 px-4 rounded-tl-lg rounded-tr-lg bg-white text-md border-b-[1px]">
