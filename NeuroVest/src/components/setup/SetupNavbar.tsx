@@ -35,7 +35,6 @@ export default function SetupNavbar() {
     switch (true) {
       case stage == 10:
         setCurrentStage(stage_1_title)
-        setIsAccepted(false)
         setNextStage(20)
         break;
       case stage == 20:
@@ -80,8 +79,7 @@ export default function SetupNavbar() {
     }
 
 
-  }, [stage, setIsAccepted]);
-
+  }, [stage]);
 
   return (
     <div className="flex justify-between py-2 px-4 rounded-tl-lg rounded-tr-lg bg-white text-md border-b-[1px]">
