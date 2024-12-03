@@ -34,13 +34,13 @@ export default function SetupNavbar() {
 
     switch (true) {
       case stage == 10:
-        setIsAccepted(false)
         setCurrentStage(stage_1_title)
+        setIsAccepted(false)
         setNextStage(20)
         break;
       case stage == 20:
-        setIsAccepted(false)
         setCurrentStage(stage_2_title)
+        setIsAccepted(true)
         setNextStage(30)
         break;
       case stage == 30:
