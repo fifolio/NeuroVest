@@ -39,7 +39,7 @@ export default function SetupNavbar() {
         setNextStage(20)
         break;
       case stage == 20:
-        setIsAccepted(true)
+        setIsAccepted(false)
         setCurrentStage(stage_2_title)
         setNextStage(30)
         break;
