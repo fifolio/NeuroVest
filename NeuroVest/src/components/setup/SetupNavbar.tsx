@@ -35,6 +35,7 @@ export default function SetupNavbar() {
     switch (true) {
       case stage == 10:
         setCurrentStage(stage_1_title)
+        setIsAccepted(false)
         setNextStage(20)
         break;
       case stage == 20:
