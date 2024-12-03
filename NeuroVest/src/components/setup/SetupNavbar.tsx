@@ -80,7 +80,7 @@ export default function SetupNavbar() {
     }
 
 
-  }, [stage]);
+  }, [stage, setIsAccepted]);
 
 
   return (
